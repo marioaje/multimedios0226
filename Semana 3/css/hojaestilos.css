@@ -1,0 +1,16 @@
+    
+      p {
+        background-color: gray;
+        text-align: right;
+      }
+    
+input[type="text"]{
+    background-color: aqua;
+}
+
+
+input[type="password"]{
+    background-color: rgb(255, 0, 76);
+}
+
+            /* <input type="text" /> */
