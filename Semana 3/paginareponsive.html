@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 3;
+        padding: 3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+      }
+      body {
+        line-height: 1.5;
+      }
+
+      header {
+        background-color: aqua;
+        border-radius: 15px;
+      }
+      nav {
+        background-color: blue;
+        justify-content: right;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 15px;
+      }
+
+      nav a {
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        color: blanchedalmond;
+      }
+
+      footer {
+        border-radius: 15px;
+        background-color: brown;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 15px;
+      }
+
+      .textoBlanco {
+        color: white;
+      }
+
+      .contanier {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .main {
+        padding: 10px;
+        flex: 60%;
+      }
+
+      .sideba {
+        flex: 40%;
+        padding: 10px;
+        background-color: chocolate;
+      }
+
+      @media (max-width: 750px) {
+        .contanier {
+          flex-direction: column;
+          background-color: chocolate;
+        }
+
+        nav {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mi sitio Responsive</h1>
+    </header>
+    <nav>
+      <a class="textoBlanco" href="listas.html">Listas</a>
+      <a class="textoBlanco" href="encabezado.html">encabezado</a>
+      <a class="textoBlanco" href="parrafos.html">parrafos</a>
+      <a class="textoBlanco" href="primero.html">primero</a>
+      <a class="textoBlanco" href="titulo.html">titulo</a>
+    </nav>
+    <div class="contanier">
+      <div class="main">
+        <!-- 60 -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam
+          rem animi error totam accusantium! Minus, assumenda voluptate? Cum
+          aperiam amet aliquam explicabo cupiditate modi tempora recusandae
+          excepturi similique eos?
+        </p>
+        <img src="img/5.png" alt="" />
+      </div>
+      <div class="sideba">
+        <!-- 40 -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam
+          rem animi error totam accusantium! Minus, assumenda voluptate? Cum
+          aperiam amet aliquam explicabo cupiditate modi tempora recusandae
+          excepturi similique eos?
+        </p>
+        <img src="img/5.png" alt="" />
+      </div>
+    </div>
+    <footer class="textoBlanco">Multimedios G22026</footer>
+  </body>
+</html>
